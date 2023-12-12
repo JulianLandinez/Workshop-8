@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="JpaMysql (5)" />
+        <module name="JpaMysql (4)" />
+        <module name="JpaMysql (3)" />
+        <module name="JpaMysql (2)" />
+        <module name="JpaMysql (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JpaMysql" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="JpaMysql" options="-parameters" />
+      <module name="JpaMysql (1)" options="-parameters" />
+      <module name="JpaMysql (2)" options="-parameters" />
+      <module name="JpaMysql (3)" options="-parameters" />
+      <module name="JpaMysql (4)" options="-parameters" />
+      <module name="JpaMysql (5)" options="-parameters" />
+    </option>
+  </component>
+</project>
